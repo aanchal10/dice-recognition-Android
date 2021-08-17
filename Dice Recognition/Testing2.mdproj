@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{9A9B525F-76CE-44B4-A246-9AA345951611}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Code\.DS_Store" />
+    <None Include="Code\dice-recognition.sdf" />
+    <None Include="Code\dice-recognition.sln" />
+    <None Include="Code\dice-recognition.v12.suo" />
+    <None Include="Code\README.md" />
+    <None Include="Code\dice-recognition\.DS_Store" />
+    <None Include="Code\dice-recognition\dice-recognition.vcxproj" />
+    <None Include="Code\dice-recognition\dice-recognition.vcxproj.filters" />
+    <None Include="Code\dice-recognition\dice-recognition.vcxproj.user" />
+    <None Include="Code\dice-recognition\IDiceRecognizer.h" />
+    <None Include="Code\dice-recognition\KMeans.cpp" />
+    <None Include="Code\dice-recognition\KMeans.h" />
+    <None Include="Code\dice-recognition\main.cpp" />
+    <None Include="Code\dice-recognition\MyDiceRecognizer.cpp" />
+    <None Include="Code\dice-recognition\MyDiceRecognizer.h" />
+    <None Include="Code\dice-recognition\PerformanceMeter.cpp" />
+    <None Include="Code\dice-recognition\PerformanceMeter.h" />
+    <None Include="Code\dice-recognition\RandomDiceRecognizer.cpp" />
+    <None Include="Code\dice-recognition\RandomDiceRecognizer.h" />
+    <None Include="Code\dice-recognition\RealDiceRecognizer.h" />
+    <None Include="Code\dice-recognition\Util.h" />
+    <None Include="Code\dice-recognition\.idea\dice-recognition.iml" />
+    <None Include="Code\dice-recognition\.idea\misc.xml" />
+    <None Include="Code\dice-recognition\.idea\modules.xml" />
+    <None Include="Code\dice-recognition\.idea\vcs.xml" />
+    <None Include="Code\dice-recognition\.idea\workspace.xml" />
+    <None Include="Code\dice-recognition\.idea\codeStyles\Project.xml" />
+    <None Include="Code\dice-recognition\data\1.jpg" />
+    <None Include="Code\dice-recognition\data\10.jpg" />
+    <None Include="Code\dice-recognition\data\11.jpg" />
+    <None Include="Code\dice-recognition\data\12.jpg" />
+    <None Include="Code\dice-recognition\data\13.jpg" />
+    <None Include="Code\dice-recognition\data\14.jpg" />
+    <None Include="Code\dice-recognition\data\15.jpg" />
+    <None Include="Code\dice-recognition\data\16.jpg" />
+    <None Include="Code\dice-recognition\data\17.jpg" />
+    <None Include="Code\dice-recognition\data\18.jpg" />
+    <None Include="Code\dice-recognition\data\19.jpg" />
+    <None Include="Code\dice-recognition\data\2.jpg" />
+    <None Include="Code\dice-recognition\data\20.jpg" />
+    <None Include="Code\dice-recognition\data\21.jpg" />
+    <None Include="Code\dice-recognition\data\22.jpg" />
+    <None Include="Code\dice-recognition\data\23.jpg" />
+    <None Include="Code\dice-recognition\data\24.jpg" />
+    <None Include="Code\dice-recognition\data\25.jpg" />
+    <None Include="Code\dice-recognition\data\26.jpg" />
+    <None Include="Code\dice-recognition\data\27.jpg" />
+    <None Include="Code\dice-recognition\data\28.jpg" />
+    <None Include="Code\dice-recognition\data\29.jpg" />
+    <None Include="Code\dice-recognition\data\3.jpg" />
+    <None Include="Code\dice-recognition\data\30.jpg" />
+    <None Include="Code\dice-recognition\data\31.jpg" />
+    <None Include="Code\dice-recognition\data\32.jpg" />
+    <None Include="Code\dice-recognition\data\33.jpg" />
+    <None Include="Code\dice-recognition\data\34.jpg" />
+    <None Include="Code\dice-recognition\data\35.jpg" />
+    <None Include="Code\dice-recognition\data\36.jpg" />
+    <None Include="Code\dice-recognition\data\37.jpg" />
+    <None Include="Code\dice-recognition\data\38.jpg" />
+    <None Include="Code\dice-recognition\data\39.jpg" />
+    <None Include="Code\dice-recognition\data\4.jpg" />
+    <None Include="Code\dice-recognition\data\40.jpg" />
+    <None Include="Code\dice-recognition\data\41.jpg" />
+    <None Include="Code\dice-recognition\data\42.jpg" />
+    <None Include="Code\dice-recognition\data\43.jpg" />
+    <None Include="Code\dice-recognition\data\44.jpg" />
+    <None Include="Code\dice-recognition\data\45.jpg" />
+    <None Include="Code\dice-recognition\data\46.jpg" />
+    <None Include="Code\dice-recognition\data\47.jpg" />
+    <None Include="Code\dice-recognition\data\48.jpg" />
+    <None Include="Code\dice-recognition\data\49.jpg" />
+    <None Include="Code\dice-recognition\data\5.jpg" />
+    <None Include="Code\dice-recognition\data\50.jpg" />
+    <None Include="Code\dice-recognition\data\51.jpg" />
+    <None Include="Code\dice-recognition\data\52.jpg" />
+    <None Include="Code\dice-recognition\data\53.jpg" />
+    <None Include="Code\dice-recognition\data\54.jpg" />
+    <None Include="Code\dice-recognition\data\55.jpg" />
+    <None Include="Code\dice-recognition\data\56.jpg" />
+    <None Include="Code\dice-recognition\data\57.jpg" />
+    <None Include="Code\dice-recognition\data\58.jpg" />
+    <None Include="Code\dice-recognition\data\59.jpg" />
+    <None Include="Code\dice-recognition\data\6.jpg" />
+    <None Include="Code\dice-recognition\data\60.jpg" />
+    <None Include="Code\dice-recognition\data\61.jpg" />
+    <None Include="Code\dice-recognition\data\62.jpg" />
+    <None Include="Code\dice-recognition\data\63.jpg" />
+    <None Include="Code\dice-recognition\data\64.jpg" />
+    <None Include="Code\dice-recognition\data\65.jpg" />
+    <None Include="Code\dice-recognition\data\66.jpg" />
+    <None Include="Code\dice-recognition\data\67.jpg" />
+    <None Include="Code\dice-recognition\data\68.jpg" />
+    <None Include="Code\dice-recognition\data\69.jpg" />
+    <None Include="Code\dice-recognition\data\7.jpg" />
+    <None Include="Code\dice-recognition\data\70.jpg" />
+    <None Include="Code\dice-recognition\data\71.jpg" />
+    <None Include="Code\dice-recognition\data\72.jpg" />
+    <None Include="Code\dice-recognition\data\73.jpg" />
+    <None Include="Code\dice-recognition\data\74.jpg" />
+    <None Include="Code\dice-recognition\data\8.jpg" />
+    <None Include="Code\dice-recognition\data\9.jpg" />
+    <None Include="Code\dice-recognition\data\data.txt" />
+    <None Include="Code\dice-recognition\data\data2.txt" />
+    <None Include="Code\dice-recognition\data\data3.txt" />
+    <None Include="Code\dice-recognition\data\data4.txt" />
+    <None Include="Code\dice-recognition\data\data5.txt" />
+    <None Include="Code\dice-recognition\data\data6.txt" />
+    <None Include="Code\dice-recognition\data\data7.txt" />
+    <None Include="Code\dice-recognition\data\data8.txt" />
+  </ItemGroup>
+</Project>
